@@ -14,7 +14,7 @@ struct CatImageView: View {
             image
                 .resizable()
                 .scaledToFit()
-                .cornerRadius(16)
+                .cornerRadius(20)
         } placeholder: {
            ProgressView()
                 .progressViewStyle(.circular)
